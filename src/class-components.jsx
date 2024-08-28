@@ -44,8 +44,8 @@ class CardsComponents extends Component {
               <div>{IsRead[index] ? eachItem.ingredients : ""}</div>
               <button onClick={() => this.readFunction(index)}>
                 {IsRead[index]
-                  ? `Close Me ${index + 1}`
-                  : `Click me ${index + 1}`}
+                  ? `Read Less ${index + 1}`
+                  : `Read ${index + 1}`}
               </button>
             </div>
           );
