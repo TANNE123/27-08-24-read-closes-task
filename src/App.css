@@ -1,0 +1,21 @@
+.card{
+    width: 335px;
+    height: 420px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 8px;
+    margin: 20px 10px;
+    box-shadow: 0 0 3px 1px;
+    border-radius: 10px;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+button{
+    cursor: pointer;
+    font-weight:bold;
+    padding: 5px 8px;
+}
